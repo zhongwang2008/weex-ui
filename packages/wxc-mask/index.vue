@@ -42,10 +42,6 @@
 
   .wxc-mask {
     position: fixed;
-    top: 300px;
-    left: 60px;
-    width: 702px;
-    height: 800px;
   }
 
   .mask-bottom {
@@ -79,7 +75,7 @@
       },
       top: {
         type: Number,
-        default: 0
+        default: 300
       },
       show: {
         type: Boolean,
